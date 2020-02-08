@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -17,9 +13,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    // The value doesn't matter here, TypeScript is only used for type checking, not transforming. Needed to eliminate complaints about JSX.
     "jsx": "react"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"],
+  "exclude": ["**/stories.tsx"]
 }
