@@ -1,55 +1,30 @@
 {
-  "name": "andrews-react-app-template",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@craco/craco": "^5.6.3",
-    "@emotion/babel-preset-css-prop": "^10.0.27",
-    "@emotion/core": "^10.0.27",
-    "@hot-loader/react-dom": "^16.11.0",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.0",
-    "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-hot-loader": "^4.12.19",
-    "react-scripts": "3.3.1",
-    "typescript": "~3.7.2"
+  "name": "@andrewprifer/cra-template-typescript",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript"
+  ],
+  "description": "The base TypeScript template for Create React App with some extras.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AndrewPrifer/andrewprifer-cra-template-typescript"
   },
-  "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "react-scripts eject",
-    "sc": "./dev-scripts/scaffoldComponent.js",
-    "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "bugs": {
+    "url": "https://github.com/AndrewPrifer/andrewprifer-cra-template-typescript/issues"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@storybook/addon-actions": "^5.3.12",
-    "@storybook/addon-links": "^5.3.12",
-    "@storybook/addons": "^5.3.12",
-    "@storybook/preset-create-react-app": "^1.5.2",
-    "@storybook/react": "^5.3.12",
-    "craco-plugin-react-hot-reload": "^0.1.0"
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "main": "template.json",
+  "publishConfig": {
+    "access": "public"
   }
 }
