@@ -25,4 +25,4 @@ For more information, please refer to:
 - react-hot-loader (with hooks support)
 - storybook
 - prettier
-- component scaffolding (`yarn sc components/containers MyComponent`)
+- component scaffolding (`yarn scaffold`)
